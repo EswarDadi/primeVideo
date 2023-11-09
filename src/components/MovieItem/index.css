@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.thumbnail {
+  width: 220px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.movies-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.close-button {
+  align-self: flex-end;
+  padding: 12px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 28px;
+  width: 28px;
+}
+.pop-content {
+  background-color: white;
+  height: 750px;
+  width: 460px;
+  border-radius: 16px;
+}
+.movie-player-container {
+  margin-top: 22px;
+  margin-left: 48px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+}
